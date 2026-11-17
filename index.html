@@ -1,3 +1,20 @@
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    apiKey: "ضع_API_KEY_هنا",
+    authDomain: "ضع_AUTH_DOMAIN_هنا",
+    projectId: "ضع_PROJECT_ID_هنا",
+    storageBucket: "ضع_STORAGE_BUCKET_هنا",
+    messagingSenderId: "ضع_MESSAGING_SENDER_ID_هنا",
+    appId: "ضع_APP_ID_هنا",
+    measurementId: "ضع_MEASUREMENT_ID_هنا"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 <!DOCTYPE html><html dir="rtl" lang="ar"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="#075b35" name="theme-color"/><meta content="منارة الوقاية: موسوعة عصرية للصحة والسلامة المهنية وطب العمل في الجزائر، مع مداخلات توعوية تفاعلية." name="description"/><meta content="light" name="color-scheme"/><meta content="index,follow,max-image-preview:large" name="robots"/><meta content="منارة الوقاية في الجزائر" property="og:site_name"/><meta content="website" property="og:type"/><meta content="منارة الوقاية في الجزائر | موسوعة الصحة والسلامة المهنية" property="og:title"/><meta content="مرجع معرفي للتشريع الجزائري في الوقاية الصحية والأمن وطب العمل، مع مداخلات توعوية ومصادر رسمية." property="og:description"/><meta content="ar_DZ" property="og:locale"/><title>منارة الوقاية | الإصدار 4.34</title><style>
 :root{--green:#075b35;--deep:#034326;--lime:#a8d900;--red:#d71932;--ink:#14231b;--muted:#64736b;--paper:#f4f8f5;--line:#d9e5dd}
 *{box-sizing:border-box}body{margin:0;background:linear-gradient(rgba(244,248,245,.42),rgba(244,248,245,.50)),url("background.webp?v=424") center center / cover fixed no-repeat;color:var(--ink);font-family:Tahoma,Arial,sans-serif;background-size:cover;background-position:center center;background-repeat:no-repeat;background-attachment:fixed}
