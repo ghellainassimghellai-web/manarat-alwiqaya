@@ -1,3 +1,24 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyATPGTLKPX4GB7bCZM37AfwLy7O9cSBVGo",
+  authDomain: "manarat-alwiqaya-df551.firebaseapp.com",
+  projectId: "manarat-alwiqaya-df551",
+  storageBucket: "manarat-alwiqaya-df551.firebasestorage.app",
+  messagingSenderId: "1055310082634",
+  appId: "1:1055310082634:web:a516afcc36a259349e2cb3",
+  measurementId: "G-CJ9HBTMM8J"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 <!DOCTYPE html><html dir="rtl" lang="ar"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="#075b35" name="theme-color"/><meta content="منارة الوقاية: موسوعة عصرية للصحة والسلامة المهنية وطب العمل في الجزائر، مع مداخلات توعوية تفاعلية." name="description"/><meta content="light" name="color-scheme"/><meta content="index,follow,max-image-preview:large" name="robots"/><meta content="منارة الوقاية في الجزائر" property="og:site_name"/><meta content="website" property="og:type"/><meta content="منارة الوقاية في الجزائر | موسوعة الصحة والسلامة المهنية" property="og:title"/><meta content="مرجع معرفي للتشريع الجزائري في الوقاية الصحية والأمن وطب العمل، مع مداخلات توعوية ومصادر رسمية." property="og:description"/><meta content="ar_DZ" property="og:locale"/><title>منارة الوقاية | الإصدار 4.35</title><style>
 :root{--green:#075b35;--deep:#034326;--lime:#a8d900;--red:#d71932;--ink:#14231b;--muted:#64736b;--paper:#f4f8f5;--line:#d9e5dd}
 *{box-sizing:border-box}body{margin:0;background:linear-gradient(rgba(244,248,245,.42),rgba(244,248,245,.50)),url("background.webp?v=424") center center / cover fixed no-repeat;color:var(--ink);font-family:Tahoma,Arial,sans-serif;background-size:cover;background-position:center center;background-repeat:no-repeat;background-attachment:fixed}
